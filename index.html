@@ -9,11 +9,15 @@
 </head>
 <body>
     <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-info navbar-dark bg-dark">
         <div class="container-fluid">
             <img class="navbar-brand" src="/img/logo.png" alt="logo">
-          
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+
+            
+        <!--inizio navbar-->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+          data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" 
+          aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -26,7 +30,8 @@
           </div>
         </div>
       </nav>
-      <!--sezione immagine profilo-->
+      <!--fine navbar-->
+      <!--inizio immagine profilo-->
     <section  class="bg-info">
         <div class="text-center pt-4">
             <h2>Pinco Pallo</h2>
@@ -34,7 +39,7 @@
             <p class="small upper-case fs-3 text-secondary">WEB DESIGNER</p>
         </div>
     </section>
-    <!-- fine profilo-->
+    <!-- fine immagine profilo-->
     </header>
 
     <!--inizio main-->
@@ -43,10 +48,10 @@
         
         <section>
              <!--immagine 1-->
-            <div class=" container-fluid w-75">
+            <div class=" container">
                 <h4 class="mt-5 text-center">PORTFOLIO</h4>
                     <div class="row">
-                        <div class="col-4">
+                        <div class="col-12 col-xl-4">
                             <img class="img-fluid" src="/img/portfolio/cabin.png" alt="casetta">
                             <div class=" border w-auto">
                             <p class="text-center pt-2">Cabin Website</p>
@@ -57,7 +62,7 @@
                             </div>
                         </div>
                           <!--immagine 2-->
-                        <div class="col-4">
+                        <div class="col-12 col-xl-4">
                             <img class="img-fluid" src="/img/portfolio/cake.png" alt="torta">
                             <div class=" border w-auto">
                             <p class="text-center pt-2">Cake Wesite</p>
@@ -68,7 +73,7 @@
                             </div>
                         </div>
                            <!--immagine 3-->
-                        <div class="col-4">
+                        <div class="col-12 col-xl-4">
                             <img class="img-fluid" src="/img/portfolio/circus.png" alt="circo">
                             <div class=" border w-auto">
                             <p class="text-center pt-2">Circus Wesite</p>
@@ -79,7 +84,7 @@
                             </div>
                         </div>
                              <!--immagine sotto 1-->
-                        <div class="col-4 mt-5">
+                        <div class="col-12  col-xl-4 mt-5">
                             <img class="img-fluid" src="/img/portfolio/game.png" alt="gioco">
                             <div class=" border w-auto">
                             <p class="text-center pt-2">game Wesite</p>
@@ -90,7 +95,7 @@
                             </div>
                         </div>
                              <!--immagine sotto 2-->
-                        <div class="col-4 mt-5">
+                        <div class="col-12   col-xl-4 mt-5">
                             <img class="img-fluid" src="/img/portfolio/safe.png" alt="cassetta">
                             <div class=" border w-auto">
                             <p class="text-center pt-2">safe Wesite</p>
@@ -101,7 +106,7 @@
                             </div>
                         </div>
                              <!--immagine sotto 3-->
-                        <div class="col-4 mt-5">
+                        <div class="col-12 col-xl-4 mt-5">
                             <img class="img-fluid" src="/img/portfolio/submarine.png" alt="submarine">
                             <div class=" border w-auto">
                             <p class="text-center pt-2">submarine Wesite</p>
@@ -122,12 +127,12 @@
         <section  class="bg-info mt-5">
             <div class="text-center pt-4">
                 <h2>ABOUT</h2>
-                <div class="container-fluid w-75 ">
+                <div class="container ">
                     <div class="row">
-                        <div class="col-6">
+                        <div class="col-12 col-xl-6">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis velit debitis placeat fugit quo tempora libero fuga quam possimus, magni commodi rerum perferendis. Aliquam, corrupti! Odio, odit? Deleniti, reprehenderit! Quo?</p>
                         </div>
-                        <div class="col-6">
+                        <div class="col-12 col-xl-6">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis velit debitis placeat fugit quo tempora libero fuga quam possimus, magni commodi rerum perferendis. Aliquam, corrupti! Odio, odit? Deleniti, reprehenderit! Quo?</p>
                         </div>
                     </div>
@@ -190,12 +195,12 @@
         <div class="container-fluid bg-dark">
             <div class="container w-75 text-center">
                 <div class="row pt-5">
-                    <div class="col-6 text-secondary">
+                    <div class="col-12 col-xl-6 text-secondary">
                         <h1>LOCATION</h1>
                         <p>2215 John Daniel Drive</p>
                         <p>Clark,MO 65243</p>
                     </div>
-                    <div class="col-6 text-secondary">
+                    <div class="col-12 col-xl-6 text-secondary">
                         <h1>AROUND THE WEB</h1>
                         <a class="text-info" href="#">www.pincopallo.com</a>
                     </div>
@@ -205,4 +210,7 @@
         </div>
     </footer>
     <!--fine footer-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 </body>
